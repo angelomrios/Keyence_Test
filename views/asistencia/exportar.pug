@@ -1,0 +1,12 @@
+extends ../layout/index
+
+block contenido
+  div.py-8
+    h1.text-4xl.my-8.font-extrabold.text-center Asistencia 
+      span.font-normal de Personal
+    h2.text-center.text-2xl.font-extrabold Exportación de datos a Excel
+
+    div.mt-6.mx-auto.max-w-md
+      div.bg-white.py-6.px-4.shadow
+        form.space-y-5(method="GET" action="/asistencia/exportar")
+          input(class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 cursor-pointer" type="submit" value="Exportar")
