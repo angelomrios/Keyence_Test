@@ -1,0 +1,28 @@
+# Ignorar directorios
+node_modules/
+dist/
+
+# Ignorar archivos de configuración y variables de entorno
+.env
+
+# Ignorar archivos generados
+public/css/app.css
+
+# Ignorar archivos de registro y registros de errores
+logs/
+*.log
+
+# Ignorar archivos de respaldo y temporales
+*.bak
+*.tmp
+*.swp
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de dependencias de desarrollo
+devDependencies/
